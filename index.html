@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>drop calc</title>
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Quizy</title>
     </head>
     <body>
-        <center>
-            <input id="n1" type="text" placeholder="First Number"><br><br>
-            <input id="n2" type="text" placeholder="Second Number"><br><br>
-            <select id="opt">
-                <option selected>SELECT</option>
-                <option value="A">ADD</option>
-                <option value="S">SUBTRACT</option>
-                <option value="M">MULTIPLY</option>
-                <option value="D">DIVIDE</option>
-            </select>
-            <br>
-            <br>
-            <input id="res" value="RESULT" type="button" onclick=result();>
-            <p style="color:snow;font-size: 300%; font-style: initial; font-style:italic; font-family: Verdana, Geneva, Tahoma, sans-serif;" id="ans"; >Answer</p>
-            <img style="width: 170px;" src="img/1.png" alt="">
-        </center>
-        <script type="text/javascript" src="js/index.js"></script> 
+    <h1>Quizy App</h1>
+    <hr>
+    <center>
+       <h3 id="ques">Question will come shortly</h3>
+      <input id="ans" type="text" placeholder="Enter your answer">
+      <br>
+      <br>
+      <input onclick="check();" type="button" value="SUBMIT">&nbsp; &nbsp; 
+      <input onclick="next();" type="button" value="NEXT">
+      <br>
+      <input  style="margin-top: 10px;background-color:#1975c5fa " onmouseover="quit();" type="button" value="QUIT">
+      <br>
+      <p id="para">AWAITING YOUR ANSWER</p>
+     
+      
+      <span style="font-size: 200px;"></span><br>
+      <p id="mark"></p>
+  
+      
+     
+    </center>
+      <script type="text/javascript" src="js/index.js"></script>
+   
+    
     </body>
+    
 </html>
