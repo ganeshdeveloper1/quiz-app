@@ -1,0 +1,39 @@
+body{
+    background-color: darkgrey;
+    background-image: url("mc.jpg");
+}
+#n1{
+    border-radius: 10px;
+    border-color: black;
+    border-style: groove;
+    padding: 10px;
+    margin-top:10px;
+    border-width:2px;
+    box-shadow: 8px 9px 6px 0px;
+}
+#n2{
+    border-radius: 10px;
+    border-color: black;
+    border-style: groove;
+    padding: 10px;
+    margin-top:10px;
+    border-width:2px;
+    box-shadow: 8px 11px 8px;;
+}
+#res{
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 4px 6px 8px;
+    background: slateblue;
+    padding: 10px;
+    font-weight: inherit;
+}
+#opt{
+    border-radius: 20px;
+    border-color: darkgray;
+    margin-top: 10px;
+    box-shadow: 4px 6px 8px;
+    background: slateblue;
+}
+
+
